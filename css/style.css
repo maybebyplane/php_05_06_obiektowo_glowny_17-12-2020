@@ -1,0 +1,36 @@
+.splash-container {
+        background-attachment: fixed;	
+        background-image: url("../img/overlay.png"), url("../img/tlo.jpg");
+        background-position: center top;
+	background-size: cover;
+}
+
+.splash-head {
+	border: 0;
+	border-color: #020;
+}
+
+.content-wrapper {
+	top: 100%;
+}
+
+.err {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #f88;
+	color: #222;
+}
+
+.inf {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: #8f8;
+	color: #222;
+}
+
+.res {
+	padding: 1em 1em 1em 1.5em;
+	border-radius: 1em;
+	background-color: #ff0;
+	color: #222;
+}
